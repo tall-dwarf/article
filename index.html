@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/fonts/stylesheet.css">
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="sidebar">
+            <img class="sidebar__img" src="./images/sidebar.jpg" alt="сайдбар">
+            <div class="profile">
+                <div class="profile-photo">
+                    <img class="profile__img" src="./images/profile.png" alt="профиль">
+                </div>
+                <div class="profile__info">
+                    <h3 class="profile__title">имя автора</h3>
+                    <h4 class="profile__subtitlte">звание автора</h4>
+                </div>
+                <div class="social profile__social">
+                    <a class="social__link" href="/">
+                        <img class="social__img" src="./images/social/inst.svg" alt="Инстаграм">
+                    </a>
+                    <a class="social__link" href="/">
+                        <img class="social__img" src="./images/social/pin.svg" alt="Пинакал">
+                    </a>
+                    <a class="social__link" href="/">
+                        <img class="social__img" src="./images/social/vk.svg" alt="вк">
+                    </a>
+                </div>
+
+                <p class="profile__descriptions">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus odit voluptatum sit dicta ratione debitis excepturi adipisci repellat aut, voluptatibus illo nobis natus optio aspernatur ab voluptatem nesciunt rerum iusto.
+                </p>
+                <div class="profile-menu">
+                    <button class="profile-btn btn btn-red">Мои работы</button>
+                    <button class="profile-btn btn btn-blue">Написать мне</button>
+                </div>
+            </div>
+        </div>
+
+        <main class="main">
+            <header class="header">
+                <div class="burger">
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                </div>
+                <nav class="nav"> 
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">ОБо МНЕ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">реклама</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Профиль</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-menu">
+                    <input class="input header__search" type="text" placeholder="Поиск по блогу">
+                </div>
+
+            </header>
+            <div class="article main__article">
+                <div class="article__header">
+                    <a class="article__link link link-grey" href="">вернуться назад</a>
+                    <a class="article__link link link-grey" href="">
+                        <span class="">поделиться</span>
+                        <img class="article__link-img" src="./images/icons/share.png" alt="Прошарить">
+                    </a>
+                </div>
+                <div class="article__info">
+                    <h2 class="article__title">Pensaban que una madre de 47 años era la novia de su hijo. Ella revela el secreto de su juventud</h2>
+                    <div class="article-info__data">
+                        <span class="article-info__date article-info__item">10.10.2023</span>
+                        <span class="article-info__item">похудение</span>
+                    </div>
+                </div>
+                <div class="article-content">
+                    <div class="article__photo">
+                        <img class="article__photo-img" src="./images/articles/1.jpg" alt="Изображение">
+                        <div class="article__photo-text">Foto de perfil de Samuel David con su madre Paula la derecha</div>
+                    </div>
+                    <p class="article__paragraph">
+                        La chica pensó que era una excusa ridícula, pero cuando miró detalladamente el perfil de Samuel, descubrió que no le estaba mintiendo. Había varias fotos tituladas "Mi madre y yo" donde podía ver la misma belleza: su madre Paula Andrea, de 47 años. Resultó ser que no era la primera vez que confundían a Paula con la novia de su hijo, y después la bombardeaban con preguntas sobre cómo se las apañaba para verse dos veces más joven. Muchos sospechaban que su aspecto era producto de una cirugía plástica, pero en realidad su secreto era muy diferente.
+                    </p>
+                    <div class="article__photo">
+                        <img class="article__photo-img" src="./images/articles/2.jpg" alt="Изображение">
+                        <div class="article__photo-text">A la izquierda, Paula de 28 años, con Samuel de 3 años. A la derecha, el 47 cumpleaños de Paula</div>
+                    </div>
+                    <div class="article__dialog">
+                        <div class="article__dialog-question">— Paula, a juzgar por las fotos, no cambiaste nada en los últimos 20 años. Me gustaría hacerte una pregunta, aunque probablemente ya estés cansada de responderla: ¿cómo lo lograste?</div>
+                        <div class="article__dialog-answer">— En primer lugar, permíteme darte las gracias, me voy a poner roja y todo. Es cierto que cambie, ahora mi estilo y mi forma de vestir es definitivamente mejor. En segundo lugar, tengo suerte: estoy casada con un dermatólogo.</div>
+                        <div class="article__dialog-question">— Entonces, ¿la razón por la que te ves tan linda y joven es completamente suya?</div>
+                        <div class="article__dialog-answer">— Por supuesto. Es un especialista, un médico. Simplemente sigo sus recomendaciones.</div>
+                        <div class="article__dialog-question">— Si no es un secreto, ¿cuáles son esas recomendaciones?</div>
+                        <div class="article__dialog-answer">— Las reglas clásicas que habrás escuchado innumerables veces: un buen sueño y una alimentación adecuada, pero sería una mentira si te dijera que es suficiente. Mi marido es un especialista licenciado que trabaja en colaboración con laboratorios. Hace unos 10 años, fue el primero en desarrollar una fórmula rejuvenecedora llamada Oxys . Yo fui la primera voluntaria en participar en los ensayos clínicos. En ese momento, tenía 37 años y, por supuesto, ya tenía arrugas, manchas pigmentadas, etc.</div>
+                    </div>
+                    <div class="article__photo">
+                        <img class="article__photo-img" src="./images/articles/3.jpg" alt="Изображение">
+                        <div class="article__photo-text">A los 47 años, Paula luce 20 años más joven gracias a una fórmula desarrollada por su marido dermatólogo</div>
+                    </div>
+                    <div class="article__dialog">
+                        <div class="article__dialog-question">— ¿Quieres decir que tu marido desarrolló el producto especialmente para ti?</div>
+                        <div class="article__dialog-answer">— Al principio, sí. Al verme en el espejo, estaba más y más molesta con el paso de los días y seguía quejándome de que mi marido era dermatólogo y que no podía hacer nada por el marchitamiento de mi piel. Para mí, las inyecciones de belleza no eran una opción. Como esposa de un médico, era plenamente consciente de las consecuencias de insertar agentes químicos debajo de la piel. Además, tengo un miedo terrible a las agujas, así que la fórmula que desarrolló fue un acierto en la diana por varias razones: en primer lugar, porque tendría una mujer joven y linda, en segundo lugar, porque dejaría de quejarme a él y, en tercer lugar, porque era una especie de desafío: hacía tiempo que deseaba comenzar a desarrollar su propio producto porque en el mercado de los cosméticos no había nada que cumpliera plenamente con sus requisitos.</div>
+                        <div class="article__dialog-question">— ¿El producto dio buenos resultados inmediatamente?</div>
+                        <div class="article__dialog-answer">— La fórmula fue probada y ajustada varias veces, pero los primeros resultados fueron muy reveladores solamente después de la segunda o tercera prueba. Me aplicaba la producto cada día durante un mes y, una bonita mañana, al mirarme en el espejo, me di cuenta de que mis arrugas habían desaparecido y que el tono de mi piel se había vuelto uniforme. Desde entonces, desde hace 10 años, mi piel se ve como la ves.</div>
+                        <div class="article__dialog-question">— Dr. Orozco, cuéntenos cómo logró desarrollar una fórmula que da resultados tan notables y por qué casi nadie la conoce.</div>
+                        <div class="article__dialog-answer">— Para mí, como especialista, no hay nada complicado en esta fórmula: simplemente hay que saber cómo está construido el cuerpo humano y las funciones de la piel. En cuanto a su segunda pregunta, este producto es muy conocida: yo se la recomiendo a mis pacientes, y estos a sus amigos, etc. Pero debe tener en cuenta que el mercado moderno está lleno de productos cosméticos. Las grandes empresas invierten enormes cantidades de dinero en marketing y publicidad, y es imposible romper el ruido de información que generan.</div>
+                        <div class="article__dialog-question">— Acaba de mencionar que hay que saber cómo funciona la piel humana. ¿Puede explicarnos este proceso con palabras sencillas?</div>
+                        <div class="article__dialog-answer">— A partir de los 25 años, las personas comienzan a perder cada año aproximadamente el 1% del contenido de colágeno en la piel, que es uno de los "bloques de construcción" de la epidermis. Esto conduce a la desorganización de su estructura, es decir, la estructura de la piel se altera. Además, se ralentizan los procesos de regeneración de la piel y de todo el organismo. El nuevo material de construcción se fabrica en cantidades menores, mientras que el antiguo se descompone y no se restaura. Esto conduce a una pérdida de elasticidad y, por lo tanto, a la flacidez de la piel, a la pérdida de volumen y, finalmente, a la formación de arrugas profundas.</div>
+                        <div class="article__dialog-question">— ¿Y cómo funciona su fórmula?</div>
+                        <div class="article__dialog-answer">— Si el cuerpo no puede producir colágeno, hay que ayudarle. Es por eso que la fórmula está enriquecida con colágeno adicional, pero como sabrá, el colágeno adicional solo afecta a las consecuencias del problema, y nosotros ​​tenemos que lidiar con su causa: estimular la síntesis de nuevo colágeno y la acumulación de fibras de colágeno.</div>
+                        <div class="article__dialog-answer">Dedicamos mucho tiempo a buscar la mejor solución, y en la primera versión de la fórmula utilizamos "elementos de juventud" sintéticos: colágeno, ácido hialurónico y elastina. Sin embargo, los resultados de las pruebas demostraron que no producen el resultado deseado. Así que decidimos sustituirlos por un producto que estimula la producción natural de estos elementos. Estos ingredientes eran extracto de uva y antioxidantes.</div>
+                        <div class="article__dialog-answer">Otras pruebas demostraron que el extracto de uva y los antioxidantes no sólo estimulan la producción de colágeno, es decir, restauran la elasticidad de la piel y alisan las arrugas, sino que también inhiben la producción de melanina, responsable de la formación de manchas de la edad. En algunos casos, gracias a sus propiedades antisépticas, el extracto de uva elimina las manchas de la piel y el acné. En ese momento nos dimos cuenta de que habíamos encontrado lo que necesitábamos.</div>
+                        <div class="article__dialog-question">— ¿Hay otros ejemplos, además de su esposa, que puedan demostrar la eficacia de la fórmula?</div>
+                        <div class="article__dialog-answer">— Por supuesto. Paula fue la primera, pero después de hacer todas las pruebas de laboratorio, pusimos la producto en producción. Yo, por mi parte, comencé a recomendarla a mis pacientes, y ellos, a su vez, la recomendaban a familiares y amigos. Su experiencia ha demostrado que incluso las mujeres mayores de 65 años pueden deshacerse de las arrugas faciales, resolviendo el problema de la sequedad y la flacidez de la piel.</div>
+                    </div>
+                    <div class="article__photo">
+                        <img class="article__photo-img" src="./images/articles/4.jpg" alt="Изображение">
+                        <img class="article__photo-img" src="./images/articles/5.jpg" alt="Изображение">
+                        <img class="article__photo-img" src="./images/articles/6.jpg" alt="Изображение">
+                        <img class="article__photo-img" src="./images/articles/7.jpg" alt="Изображение">
+                        <div class="article__photo-text">Fotos de las pacientes de Rogelio Orozco antes y después de usar Oxys</div>
+                    </div>
+                    <div class="article__dialog">
+                        <div class="article__dialog-question">— Dice que los poderosos gigantes de productos cosméticos dificultan su entrada al mercado. ¿Cómo se comercializa su producto? ¿Dónde se puede comprar?</div>
+                        <div class="article__dialog-answer">— Por ahora, lamentablemente, solo se vende en nuestra web oficial. Esperamos que en el futuro podamos llegar a los estantes de las farmacias y tiendas mientras seguimos negociando, pero esta situación beneficia a los compradores: dado que la producto no se comercializa en nuestro país y no la publicitamos entre los consumidores como parte de un programa de marketing, a menudo llevamos a cabo promociones limitadas con descuentos.</div>
+                     </div>
+                </div>
+                <div class="interesting article__interesting">
+                    <h3 class="interesting__title">Интересно почитать</h3>
+                    <ul class="interesting-list">
+                        <li class="interesting-item">
+                            <a href=""  class="interesting-item__link">Как я сходил на FrontEnd Conf 2021</a>
+                            <span class="interesting-item__date">21.06.2020</span>
+                        </li>
+                        <li class="interesting-item">
+                            <a href=""  class="interesting-item__link">Как я сходил на FrontEnd Conf 2021</a>
+                            <span class="interesting-item__date">21.06.2020</span>
+                        </li>
+                        <li class="interesting-item">
+                            <a href=""  class="interesting-item__link">Как я сходил на FrontEnd Conf 2021</a>
+                            <span class="interesting-item__date">21.06.2020</span>
+                        </li>
+                        <li class="interesting-item">
+                            <a href="" class="interesting-item__link">Как я сходил на FrontEnd Conf 2021</a>
+                            <span class="interesting-item__date">21.06.2020</span>
+                        </li>
+                    </ul>
+                </div>
+                
+            <div class="comments article__comments">
+                <h3 class="comments__title">Обсуждение</h3>
+                <div class="comments-menu">
+                    <input  class="comments__input" placeholder="Текст комментария" type="text">
+                    <button class="comments__btn">Отправить</button>
+                </div>
+                <ul class="comments-list">
+                    <li class="comments-item">
+                        <div class="comments-item__info">
+                            
+                        </div>
+                        <p class="comments-item__text"></p>
+                        <a class="comments-item__link" href=""></a>
+                        <ul class="comments-list comments-item__list">
+                            <li></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            </div>
+
+
+
+        </main>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
